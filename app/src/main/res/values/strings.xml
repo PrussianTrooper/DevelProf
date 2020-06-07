@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">PracticeArchi</string>
+    <string name="reload_button">reload_button</string>
+    <string name="error_textview_stub">stub_error</string>
+    <string name="button_search">search_button</string>
+    <string name="search">Search</string>
+    <string name="search_hint" />
+    <string name="delete_description" />
+    <string name="new_word">New word</string>
+    <string name="empty_server_response_on_success" />
+    <string name="undefined_error" />
+</resources>

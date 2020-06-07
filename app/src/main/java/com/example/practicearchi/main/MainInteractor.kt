@@ -1,0 +1,24 @@
+package com.example.practicearchi.main
+
+import com.example.practicearchi.AppState
+import com.example.practicearchi.Interactor
+import com.example.practicearchi.Repository
+import com.example.practicearchi.search.SearchResult
+import io.reactivex.Observable
+
+class MainInteractor(
+    // Снабжаем интерактор репозиторием для получения локальных или внешних
+    // данных
+    private val remoteRepository: Repository<List<SearchResult>>,
+    private val localRepository: Repository<List<SearchResult>>
+) : Interactor<AppState> {
+    // Интерактор лишь запрашивает у репозитория данные, детали имплементации
+    // интерактору неизвестны
+    override fun getData(word: String, fromRemoteSource: Boolean): Observable<AppState> {
+        return if (fromRemoteSource) {
+            remoteRepository.getData(word).map { AppState.Success(it) }
+        } else {
+            localRepository.getData(word).map { AppState.Success(it) }
+        }
+    }
+}

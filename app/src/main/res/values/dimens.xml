@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="margin_medium">margin_medium</dimen>
+    <dimen name="hairline">harline</dimen>
+    <dimen name="margin_small">margin</dimen>
+    <dimen name="bottom_sheet_dialog_corner_radius" />
+    <dimen name="margin_xxx_medium" />
+    <dimen name="margin_xx_medium" />
+
+
+        //Margins
+        <dimen name="margin_xxxx_small">3dp</dimen>
+        <dimen name="margin_xxx_small">4dp</dimen>
+        <dimen name="margin_xx_small">6dp</dimen>
+        <dimen name="margin_x_small">8dp</dimen>
+        <dimen name="margin_x_medium">18dp</dimen>
+        <dimen name="margin_large">31dp</dimen>
+        <dimen name="margin_x_large">36dp</dimen>
+        <dimen name="margin_xx_large">41dp</dimen>
+        <dimen name="margin_xxx_large">46dp</dimen>
+
+        //Text size
+        <dimen name="text_size_tip">11sp</dimen>
+        <dimen name="text_size_standard">16sp</dimen>
+        <dimen name="text_size_standard_header">19sp</dimen>
+        <dimen name="text_size_large">26sp</dimen>
+
+    </resources>
+
