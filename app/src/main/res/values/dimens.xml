@@ -6,8 +6,6 @@
     <dimen name="bottom_sheet_dialog_corner_radius" />
     <dimen name="margin_xxx_medium" />
     <dimen name="margin_xx_medium" />
-
-
         //Margins
         <dimen name="margin_xxxx_small">3dp</dimen>
         <dimen name="margin_xxx_small">4dp</dimen>
